@@ -1,3 +1,426 @@
-#avatar{
-    border: 2px solid black;
+/* Typography */
+
+body{
+  font-family: 'Karla', sans-serif;
+}
+
+h1{
+  font-family: 'EB Garamond', serif;
+  font-size: 78px;
+  color: #000;
+  padding: 10px 0px;
+}
+
+h2{
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  color: #9B9B9B;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+h3{
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  color: #9b9b9b;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+h4{
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  font-weight:500;
+  letter-spacing: 2px;
+  line-height: 40px;
+  color: #000;
+}
+
+p{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #9B9B9B;
+  text-align: left;
+}
+
+.signature{
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #76939A;
+}
+
+.gray-teal{
+  color: #76939A;
+}
+
+.black{
+  color: #000;
+}
+
+.gray{
+  color: #9B9B9B;
+}
+
+
+/* Navbar */
+
+.navbar{
+background-color: white;
+box-shadow: 0 2px 10px rgba(214, 214, 214, 100);
+padding: 0.5% 10%;
+}
+
+.navbar-brand{
+  font-family: 'EB Garamond', serif;
+  font-size: 26px;
+  letter-spacing: 6px;
+}
+
+.navbar a:hover{
+  color: #76939A;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transform: scale(1.07);
+}
+
+a.nav-link:hover{
+  color: #76939A;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transform: scale(1.07);
+}
+
+/* Links */
+
+a{
+  color: #000;
+  display: inline-block;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* Title */
+
+#title{
+  padding: 13.5% 10% 7% 10%;
+}
+
+#title img{
+  padding-top: 15%;
+  max-width: 100%;
+}
+
+#title a:hover{
+  color: #76939A;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transform: scale(1.05);
+}
+
+
+/* Featured Work */
+
+#featured-work{
+  padding: 0 10%;
+}
+
+.card{
+  border: none;
+  box-shadow: 0 2px 10px rgba(214, 214, 214, 100);
+  margin-top: 20px;
+  margin-bottom: 110px;
+}
+
+.card:hover{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.12), 0 10px 10px rgba(0,0,0,0.12);
+  transform: translateY(-15px);
+}
+
+.card-img-top{
+  padding:0;
+}
+
+.img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#featured-work p{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #76939A;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.card-title{
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 32px;
+
+}
+
+
+
+/* Hackathon Projects */
+
+#hackathon-projects{
+  padding: 0.1% 10% 0;
+}
+
+.hackathon-title-lg{
+  padding-top: 40px;
+}
+
+.hackathon-title-sm{
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+#hackathon-projects p{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #76939A;
+  text-align: left;
+  padding-top: 10px;
+}
+
+
+/* Contact Section */
+
+#contact{
+  padding: 4% 10% 15% 10%;
+}
+
+i{
+  padding-top: 30px;
+  padding-right: 20px;
+  color:#76939A;
+}
+
+#contact a:hover{
+  color: #76939A;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transform: scale(1.1);
+}
+
+
+/* Footer */
+
+#footer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #F0F0F0;
+}
+
+
+/* About Page */
+
+#quote-section{
+  padding-top: 12%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 3%;
+}
+
+.quote{
+  font-family: 'EB Garamond', serif;
+  font-size: 42px;
+  color: #000;
+  text-align: center;
+}
+#my-story{
+  padding: 0 10%;
+  padding-bottom: 5%;
+}
+
+
+
+#my-story h3{
+  padding-left: 5%;
+  padding-right: 7%;
+  padding-top: 15px;
+  color: #000;
+  font-size: 16px;
+}
+
+.top-line{
+
+}
+
+#about #contact{
+  text-align: center;
+}
+
+#about h3{
+  padding: 0  0;
+}
+
+/* Special Effects */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+/* Responsive */
+
+@media (min-width: 1000px){
+  img{
+    display: block;
+    margin-left: auto;
+    padding-top: 50px;
+    width: 78%;
+  }
+
+  #my-story img{
+    padding-top: 50px;
+  }
+
+  .hackathon-title-sm{
+    display: none;
+  }
+
+}
+
+@media (max-width: 999px){
+  img{
+    padding-top: 50px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #my-story img{
+    padding-top: 0;
+  }
+
+  #hackathon-projects{
+    padding: 0 10%;
+  }
+
+  .hackathon-title-lg{
+    padding-top: 0;
+    display: none;
+  }
+
+  #quote-section{
+    padding-top: 20%;
+    padding-bottom: 5%;
+  }
+
+  .top-line{
+    margin-top: 30px;
+  }
+
+  #my-story h3{
+    padding-left: 60px;
+  }
+
+
+}
+
+@media (max-width: 600px){
+
+  #title{
+    padding-top: 160px;
+    padding-bottom: 70px;
+  }
+
+  #title h1{
+      font-size: 64px;
+  }
+
+  #title img{
+    display: none;
+  }
+
+  #experience-desktop{
+    display: none;
+  }
+
+  .hackathon-title-lg{
+    display: none;
+  }
+
+  .card{
+    margin-bottom: 20px;
+  }
+
+  #my-story img{
+    padding: 0;
+    width: 100%;
+  }
+
+  #quote-section{
+    padding-top: 30%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #my-story h3.top-line{
+    padding-top: 10%;
+    margin: 0;
+  }
+
+  #my-story h3{
+    padding: 0;
+    text-align: left;
+  }
+
+
+  #contact{
+    padding-top: 20%;
+  }
+
+  #footer{
+    padding-left: 17.5%;
+    padding-right: 20%;
+  }
+
+
 }
