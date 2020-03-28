@@ -349,7 +349,8 @@ i{
     display: none;
   }
 
-  #quote-section{
+  #quote-section,
+  #case-study{
     padding-top: 20%;
     padding-bottom: 5%;
   }
@@ -397,7 +398,8 @@ i{
     width: 100%;
   }
 
-  #quote-section{
+  #quote-section,
+  #case-study{
     padding-top: 30%;
     padding-bottom: 5%;
     padding-left: 10%;
